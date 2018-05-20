@@ -24,4 +24,8 @@ Python 3:
 python3 -m http.server 8000
 ```
 <br>
-4- Visit the site in your browser at http://localhost:8000
+4- Visit the site in your browser at 
+
+```
+http://localhost:8000
+```
