@@ -21,7 +21,7 @@
       </h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul role="menubar" id="breadcrumb" >
+    <ul id="breadcrumb" >
       <li role="menuitem" >
         <a role="link" href="/">Home</a>
       </li>
@@ -68,6 +68,14 @@
   <script type="text/javascript" src="js/restaurant_info.js"></script>
   <!-- Google Maps -->
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIZiF3Xp9UKPzYEqWrdU-ENITKGUjuXp8&libraries=places&callback=initMap"></script>
+<!-- Service Worker Registered -->
+ <script>
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker
+           .register('/sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
+}
+</script> 
   <!-- End scripts -->
 
 </body>
