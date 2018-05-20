@@ -8,7 +8,8 @@ website for list Restaurants reviews.
 ```
 git clone https://github.com/RawabiA/mws-restaurant-stage-1.git
 ```
-3-  launch a local client server using Python from your terminal: 
-Python 2: ``` python -m SimpleHTTPServer 8000 ```
-Python 3: ``` python3 -m http.server 8000 ```
+<br>
+3-  launch a local client server using Python from your terminal: <br>
+Python 2: ``` python -m SimpleHTTPServer 8000 ``` <br>
+Python 3: ``` python3 -m http.server 8000 ```<br>
 4- Visit the site in your browser at http://localhost:8000
